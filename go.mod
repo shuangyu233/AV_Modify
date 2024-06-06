@@ -238,7 +238,7 @@ require (
 	github.com/sacloud/packages-go v0.0.10 // indirect
 	github.com/sagernet/bbolt v0.0.0-20231014093535-ea5cb2fe9f0a // indirect
 	github.com/sagernet/cloudflare-tls v0.0.0-20231208171750-a4483c1b7cd1 // indirect
-	github.com/sagernet/gvisor v0.0.0-20240428053021-e691de28565f // indirect
+	github.com/google/gvisor v0.0.0-20240428053021-e691de28565f // indirect
 	github.com/sagernet/netlink v0.0.0-20240523065131-45e60152f9ba // indirect
 	github.com/sagernet/quic-go v0.43.1-beta.1 // indirect
 	github.com/sagernet/sing-dns v0.2.0 // indirect
@@ -345,4 +345,4 @@ require (
 )
 
 //github.com/apernet/hysteria/core v1.3.5-0.20240201034858-bb99579bb92c => /root/hysteria/core
-replace github.com/sagernet/sing-box v1.9.0 => github.com/wyx2685/sing-box_mod v0.0.6
+replace github.com/sagernet/sing-box v1.9.0 => github.com/wyx2685/sing-box_mod v0.0.7
